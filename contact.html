@@ -1,21 +1,23 @@
 <!DOCTYPE HTML>
 <html lang = "en">
 <head>
-  <!-- basic.html -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   <title>contact</title>
   <meta charset = "UTF-8" />
 </head>
-<body>
-    <h1> Dom Griffith </h1> 
 
-<div> 
-    <nav>
-     <a href="">About</a>
-     <a href="">Portfolio</a>
-     <a href="">Contact</a>
-</div>
+<div class="head">
+    <a id= "name"> Dom Griffith </a> 
+    <a id="about" href="">About</a> 
+    <a id="Portfolio" href="">Portfolio</a> 
+    <a id="Contact" href="">Contact</a>
+ </div>
+ 
+ </head>
+ <body> 
+ 
     
-
+<div class="content">
 <h1>Contact</h1>
 
 <form action="/action_page.php">
@@ -23,13 +25,15 @@
     <input type="text" id="fname" name="fname" value="John"><br>
     <label for="lname">Last name:</label><br>
     <input type="text" id="lname" name="lname" value="Doe"><br><br>
-    <input type="submit" value="Submit">
     <label for="email">Email:</label><br>
     <input type="email" id="email" name="email" valeu="example@gmail.com"><br>
+
 <p>Message</p>
-    <textarea name="paragraph" row="10" cols="10"></textarea>
+    <textarea name="paragraph" id="message" row="100" cols="100"></textarea>
+    <input type="submit" value="Submit">
 </form>
+</div>
 
-
+<a id= "footer">Copyright &copy;</a>
 </body>
 </html>

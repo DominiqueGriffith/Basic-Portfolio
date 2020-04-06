@@ -1,0 +1,114 @@
+/* .heading {
+    color: #4aaaa5;
+} */
+
+#paragraphs{
+    color: #777777;
+}
+
+.head{
+    border-color: #cccccc;
+    background-color: #ffffff ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: auto;
+    width: 960px;
+    border-bottom: solid;
+
+    
+
+}
+
+#about{
+    float: right;
+    color: #777777;
+    margin: auto;
+    padding: 10px;
+    
+   
+}
+
+#Portfolio{
+    float: right;
+    color: #777777;
+    margin: auto;
+    padding: 10px;
+
+
+}
+
+#Contact{
+    float: right;
+    color: #777777;
+    margin: auto;
+    padding: 10px;
+   
+}
+
+#name{
+    font-size: 32px;
+    color: white;
+    background-color: #4aaaa5;
+    margin: auto;
+    width: 500px;
+    font-weight: bold;
+   
+   
+    
+}
+.content{
+    background-color: #ffffff;
+    border-color: #dddddd;
+    width: 960px;
+    display: block;
+    margin: auto;
+
+}
+body{
+    background-image: url(../webb-dark.png);
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+h1{
+    border-style: solid;
+    border-color:#777777;
+    margin: auto;
+    padding: 10px;
+    border-top: white;
+    border-right: white;
+    border-left: white;
+}
+#profilepic{
+    margin: 4px 10px 0px 0px;
+    border: 1px;
+    padding: 10px;
+    float: left;
+}
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:gray;
+    color: white;
+    text-align: center;
+    border-top: solid 5px;
+    border-color: #4aaaa5;
+
+}
+#fname {
+    width:90%;
+    
+}
+
+#lname{
+    width: 90%;
+}
+
+#email{
+    width: 90%;
+}
+
+#message{
+    width: 90%;
+    height: 90%;
+}
