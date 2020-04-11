@@ -13,9 +13,14 @@
     margin: auto;
     width: 960px;
     border-bottom: solid;
+  
 
     
 
+}
+
+nav{
+    float: right;
 }
 
 #about{
@@ -55,17 +60,19 @@
    
     
 }
-.content{
+article{
     background-color: #ffffff;
     border-color: #dddddd;
     width: 960px;
     display: block;
     margin: auto;
+   
 
 }
 body{
-    background-image: url(../webb-dark.png);
+    background-image: url(../beanstalk.png);
     font-family: Arial, Helvetica, sans-serif;
+   
     
 }
 h1{
@@ -83,7 +90,7 @@ h1{
     padding: 10px;
     float: left;
 }
-#footer {
+footer {
     position: fixed;
     left: 0;
     bottom: 0;
@@ -112,3 +119,115 @@ h1{
     width: 90%;
     height: 90%;
 }
+#travelpic {
+    margin: 4px 10px 0px 0px;
+    border: 1px;
+    padding: 10px;
+    top: 20%;
+    left: 30%;
+    float: left;
+    
+
+    
+
+}
+#bookspic {
+    margin: 4px 10px 0px 0px;
+    border: 1px;
+    padding: 10px;
+    
+    
+    
+    
+
+}
+#languagespic {
+    margin: 4px 10px 0px 0px;
+    border: 1px;
+    padding: 10px;
+    float: left;
+    
+  
+    
+
+}
+
+#videogamespic {
+    margin: 4px 10px 0px 0px;
+    border: 1px;
+    padding: 10px;
+   
+   
+    
+
+}
+#musicpic {
+    margin: 4px 10px 0px 0px;
+    border: 1px;
+    padding: 10px;
+   
+    
+
+}
+
+.imagecontainer{
+    position: relative;
+}
+
+/* Wasn't able to stretch text boxes across each picture */
+
+#textboxtravel{
+    position: absolute;
+    bottom: 20px;
+    left: 80px;
+    background-color: #4aaaa5;
+   
+    
+}
+
+#textboxbooks{
+    position: absolute;
+    bottom: 20px;
+    left: 90px;
+    background-color: #4aaaa5;
+
+}
+
+#textboxlanguages{
+    position: absolute;
+    bottom: 20px;
+    left: 90px;
+    background-color: #4aaaa5;
+
+}
+
+#textboxlanguages{
+    position: absolute;
+    bottom: 20px;
+    left: 70px;
+    background-color: #4aaaa5;
+
+}
+
+#textboxvideogames{
+    position: absolute;
+    bottom: 20px;
+    left: 70px;
+    background-color: #4aaaa5;
+
+}
+
+#textboxmusic{
+    position: absolute;
+    bottom: 25px;
+    left: 90px;
+    background-color: #4aaaa5;
+
+}
+
+
+#pics{
+display: flex;
+justify-content: center;
+border: 2px;
+} 
